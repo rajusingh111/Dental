@@ -1,0 +1,130 @@
+.logincontainer{
+    display: flex;
+    width: 94vw;
+    height: -moz-max-content;
+    height: max-content;
+    margin: 1rem 2vw 3rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.logincontainer-left{
+    width: 70%;
+    padding: 2rem 5rem;
+}
+.logininput-title{
+    padding: 1rem 0;
+}
+.logininput-title--main{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    letter-spacing: .11em;
+    color: #000;
+}
+.logininput-title--sub{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #686868;
+    letter-spacing: .1em;
+}
+.logininput-mobile{
+    display: flex;
+    flex-direction: column;
+    margin: 0.75rem 0;
+    position: relative;
+}
+.logininput-mobile--label{
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+}
+.logininput-mobile--input {
+    padding: 0.8rem 5rem 0.8rem 0.75rem;
+    border-radius: 5px;
+    background-color: #ececec;
+    border: none!important;
+    width: 100%;
+}
+.logininput-password{
+    display: flex;
+    flex-direction: column;
+    margin: 0.75rem 0;
+    position: relative;
+}
+.logininput-password--label{
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+}
+.logininput-password--input {
+    padding: 0.8rem 5rem 0.8rem 0.75rem;
+    border-radius: 5px;
+    background-color: #ececec;
+    border: none!important;
+    width: 100%;
+}
+.logininput-password--eye{
+    position: absolute;
+    right: 0.65rem;
+    top: 3.25rem;
+}
+.logininput-forgot{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.8rem 0;
+}
+.logininput-forgot--check{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.5rem 0 0.25rem;
+}
+.logininput-forgot--right{
+    font-size: .9rem;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+.forgotpassword{
+    cursor: pointer;
+    color: #00a2aa;
+}
+.logininput-submit{
+    width: 100%;
+    background-color: #00a2aa;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 3rem;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: .08em;
+    color: #fff;
+    margin: 0.25rem 0 1rem;
+    border: 1px solid #00a2aa;
+}
+.logininput-submit--dont{
+    color:#686868;
+}
+.logininput-submit--register{
+    font-weight: 500;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: .06em;
+}
+.logincontainer-right--container{
+    width: 60%;
+}
+.logincontainer-right{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
